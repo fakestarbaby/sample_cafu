@@ -6,6 +6,14 @@
   "bugs": {
     "url": "https://github.com/fakestarbaby/sample_cafu/issues"
   },
+  "scripts": {
+    "umm:init": "umm-init",
+    "umm:generate_assembly_definition": "umm-generate_assembly_definition",
+    "umm:project:deploy": "umm-project-deploy",
+    "umm:project:remove": "umm-project-remove",
+    "postinstall": "npm run --silent umm:project:deploy",
+    "postuninstall": "npm run --silent umm:project:remove"
+  },
   "author": "Yoshinori Hirasawa",
   "license": "MIT",
   "repository": {
