@@ -11,6 +11,6 @@ namespace Fakestarbaby.SampleCafu.Presentation.View.Title
         IEventDispatcher
     {
         IObservable<Unit> IEventDispatcher.DispatchEventAsObservable() =>
-            this.OnPointerDownAsObservable().AsUnitObservable();
+            this.OnPointerDownAsObservable().First().AsUnitObservable();
     }
 }
