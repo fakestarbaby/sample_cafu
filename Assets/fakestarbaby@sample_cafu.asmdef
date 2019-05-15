@@ -1,0 +1,14 @@
+{
+    "name": "fakestarbaby@sample_cafu",
+    "references": [
+        "umm@cafu_core@v3",
+        "umm@singleton_audiolistener",
+        "umm@singleton_eventsystem",
+        "umm@unirx",
+        "Zenject"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

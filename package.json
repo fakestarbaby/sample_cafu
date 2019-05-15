@@ -14,7 +14,7 @@
     "postinstall": "npm run --silent umm:project:deploy",
     "postuninstall": "npm run --silent umm:project:remove"
   },
-  "author": "Yoshinori Hirasawa",
+  "author": "fakestarbaby",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -24,7 +24,10 @@
     "Assets"
   ],
   "dependencies": {
-    "@umm/cafu_core": "umm/cafu_core#^3.0.0"
+    "@umm/cafu_core": "umm/cafu_core#^3.0.0",
+    "@umm/singleton_audiolistener": "umm/singleton_audiolistener#^1.0.0",
+    "@umm/singleton_eventsystem": "umm/singleton_eventsystem#^1.0.0",
+    "@umm/zenject": "umm/zenject#^2.0.0"
   },
   "devDependencies": {}
 }
